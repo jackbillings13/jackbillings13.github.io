@@ -36,15 +36,17 @@ aside {
 	background-color: white;
 	position: absolute;
 	right: 0;
+	height: 100%;
+	width: 20%;
 }
 
 aside h2 {
 	margin-right: 10px;
 }
 
-img {
-	height: 140px;
-	width: 120px;
+aside img {
+	height: 30%;
+	width: 80%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
