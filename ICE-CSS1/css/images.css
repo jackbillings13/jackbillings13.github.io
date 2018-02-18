@@ -1,0 +1,7 @@
+.hover {
+	border-radius: 0;
+	border-color: #364f6b;
+
+	/*** Animation stuff ***/
+	animation: skewit 1s infinite ease;
+}
