@@ -9,13 +9,14 @@
       var opt_straw = document.querySelector('#opt-straw');
       var opt_blue = document.querySelector('#opt-blue');
 
-      if (opt_straw.checked == true && opt_blue.checked == false) {
+      if (opt_straw.checked == true) {
         return true;
       }
-      if (opt_straw.checked == false && opt_blue.checked == true) {
+      if (opt_blue.checked == true) {
         return true;
       }
       else {
+        alert('Please select your favorite berry!');
         return false;
       }
 		} 
@@ -30,10 +31,10 @@
         <div>
           What's your favorite berry?: 
           <label>
-            <input type="radio" value = "s" id="opt-straw"> Strawberries
+            <input type="radio" name = 'berry' value = "s" id="opt-straw"> Strawberries
           </label>
           <label>
-            <input type="radio" value = "b" id="opt-blue"> Blueberries
+            <input type="radio" name='berry' value = "b" id="opt-blue"> Blueberries
         </label>
       </div>
   </fieldset>
