@@ -3,10 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Challenge 4</title>
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
     <style>
 
     .errormsg { 
         /*font: Use a cool Google font*/
+        font-family: 'Rammetto One', cursive;
     	color:red;
     	display:none; } 
     </style>
@@ -14,6 +16,22 @@
     <script type="text/javascript">
     function checkForm(){
     	// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the form action is not performed if either field is blank.
+      var fullname = document.querySelector('#fullname').value;
+      var streetaddr = document.querySelector('#streetaddr').value;
+      var nameError = document.getElementById('nameerrormsg');
+      var streetError = document.getElementById('addrerrormsg');
+      
+      if (!fullname && !streetaddr) {
+        return false;
+      }
+      if (!fullname) {
+        nameError.style.display = "block";
+        return false;
+      }
+      if (!streetaddr) {
+        streetError.style.display = "block";
+        return false;
+      }
     }  
     </script>
 </head>
