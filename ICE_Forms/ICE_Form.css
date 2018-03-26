@@ -62,15 +62,6 @@ form fieldset fieldset label {
 	padding: 0 0 0 30px;
 	width: auto;
 }
-form label[for=visa] {
-	background-image: url("img/visa.gif");
-}
-form label[for=amex] {
-	background-image: url("img/amex.gif");
-}
-form label[for=mastercard] {
-	background-image: url("img/mastercard.gif");
-}
 
 
 
