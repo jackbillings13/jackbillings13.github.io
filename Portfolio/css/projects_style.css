@@ -1,4 +1,16 @@
-.optum {
+.photo {
+	height: 70%;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+h3, p {
+	text-align: center;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+/*.optum {
 	width: 49%;
 	height: 50%;
 	display: inline-block;
@@ -137,4 +149,4 @@
 }
 .brew p {
 	text-align: center;
-}
+}*/
