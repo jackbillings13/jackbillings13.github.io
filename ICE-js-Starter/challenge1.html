@@ -26,14 +26,18 @@ When you test your form at the moment, you'll notice that you can click on the c
     	function toggleEmail(){
     		/*    YOUR CODE HERE - check Step 1*/ 
         // var emailfield = document.getElementById('emailfield');
-        var emailfpield = document.querySelector('#emailfield');
+        var emailfield = document.getElementById('emailfield');
         var subscribe = document.querySelector('#subscribe');
+        var email = document.getElementById('email');
 
         if (subscribe.checked == true) {
+          email.value = '';
           emailfield.style.display = 'block';
         }
         else {
           emailfield.style.display = 'none';
+
+          // emailfield.disabled = false;
         }
     	} 
     </script>

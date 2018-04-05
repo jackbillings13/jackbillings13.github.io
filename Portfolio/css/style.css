@@ -50,6 +50,7 @@ h1{
 }
 h2{
 	font-size: 1.5em;
+	text-align: center;
 }
 h3{
 	font-size: 1.17em;
@@ -145,11 +146,9 @@ header{
 	height: 3em;
 }
 
-.logo a {
-	font-size: 30px;
-	line-height: 50px;
-	text-decoration: none;
-	color: LightSkyBlue;
+.logo img {
+	height: 3em;
+	border-radius: 50%;
 }
 
 /*-----FOOTER-----*/
@@ -172,11 +171,18 @@ footer p{
 /*-----HOMEPAGE-----*/
 .main-content-home{
 	margin-top: 0px;
+	background-color: gray;
 }
 
 .main-content-home img {
-	height: 500px;
-	width: 100%;
+	border-radius: 50%;
+	height: 50%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	display: block;
 }
 
 .home-flag{
@@ -213,4 +219,42 @@ footer p{
 .about {
 	text-align: center;
 	margin-bottom: 100px;
+}
+.font_0 {
+	font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
+    color: #FFFFFF;
+}
+.color_18 {
+    color: #00D646;
+}
+.font_0 {
+    font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
+    color: #FFFFFF;
+}
+.txtNew {
+    word-wrap: break-word;
+    text-align: start;
+    pointer-events: none;
+}
+.backcolor_27 {
+    background-color: #333B50;
+}
+
+element.style {
+    line-height: 1.8em;
+}
+.txtNew h5 {
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.txtNew > * {
+    pointer-events: auto;
+}
+.font_5 {
+    font: normal normal normal 24px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #FFFFFF;
+}
+#comp-iqq9jnnp {
+	background-color: #333B50;
 }
