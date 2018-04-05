@@ -121,7 +121,7 @@ header{
   top: 1px;
 }
 .top-nav ul li a:hover, .menu-icon a:hover, .top-nav ul li a:focus, .menu-icon a:focus{
-    background-color: #E3AD02;
+    background-color: LightSkyBlue;
     color: #DDDDDA;
     font-weight: bold;
 }
@@ -169,23 +169,14 @@ footer p{
 }
 
 /*-----HOMEPAGE-----*/
-.main-content-home{
-	margin-top: 0px;
-	background-color: gray;
-}
 
-.main-content-home img {
-	border-radius: 50%;
-	height: 50%;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
-	margin-bottom: 50px;
-	display: block;
+.about {
+	margin-top: 75px;
 }
-
-.home-flag{
+.about p {
+	text-align: center;
+}
+/*.home-flag{
 	background-color: #17BEBB;
 	color: #DDDDDA;
 	display: flex;
@@ -194,67 +185,16 @@ footer p{
 	margin: auto;
 	padding: 1.5em;
 	box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
-}
+}*/
 
-/*-----IMAGES PAGE ------*/
-.main-content-crafts{
-	margin-top: 250px;
-}
-/*photo gallery*/
-.crafts{
-	display: block;
-	margin: auto;
-	max-width: 1200px;
-}
-.photo-cell{
-	margin-bottom: 2%;
-	margin-left: 2%;
-}
-.photo-cell {
-	width: 98%;
-  	display: block;
-  	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
-}
-
-.about {
+h4 {
 	text-align: center;
-	margin-bottom: 100px;
 }
-.font_0 {
-	font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
-    color: #FFFFFF;
-}
-.color_18 {
-    color: #00D646;
-}
-.font_0 {
-    font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
-    color: #FFFFFF;
-}
-.txtNew {
-    word-wrap: break-word;
-    text-align: start;
-    pointer-events: none;
-}
-.backcolor_27 {
-    background-color: #333B50;
+.experience {
+	width: 50%;
+	margin: 0 auto;
+	background-color: LightSkyBlue;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
-element.style {
-    line-height: 1.8em;
-}
-.txtNew h5 {
-    margin: 0;
-    line-height: normal;
-    letter-spacing: normal;
-}
-.txtNew > * {
-    pointer-events: auto;
-}
-.font_5 {
-    font: normal normal normal 24px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
-    color: #FFFFFF;
-}
-#comp-iqq9jnnp {
-	background-color: #333B50;
-}

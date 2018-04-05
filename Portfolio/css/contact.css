@@ -1,10 +1,15 @@
 
 /* GENERAL APPEARANCE */
-html, body, h1, form, fieldset, legend, ol, li {
+html, body, fieldset, legend, ol, li {
 	margin: 100;
 	padding: 100;
 }
 h1 {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+h2 {
 	text-align: left;
 }
 body {
@@ -21,7 +26,6 @@ form{
 	border-radius: 2%;
 	padding: 2%;
 	width: 90%;
-/*	margin-top: 100px;*/
 	margin-bottom: 75px;
 	margin-left: auto;
 	margin-right: auto;
