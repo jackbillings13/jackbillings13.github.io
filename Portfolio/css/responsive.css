@@ -1,7 +1,21 @@
 @media screen and (min-width: 250px){
-	.about {
-		margin-top: 10px;
-	}
+	.main-content-home{
+		margin-top: 0;
+		background-color: gray;
+		width: 100%;
+		height: 90%;
+		overflow: hidden;
+	}	
+	.main-content-home img {
+		width: 100%;
+		height: 50%;
+		margin-top: 15px;
+		display: inline;
+		margin-bottom: 10px;
+	}	
+/*	.about {
+		margin-top: 200px;
+	}*/
 	.photo-grid, .main-content {
 		margin-top: 200px;
 	}
@@ -26,14 +40,12 @@
     	margin-top: 0;
 	}
 	#image{
-		line-height:325px;
 		width: 100%;
-		height: 35%;
+		height: 40%;
 		border:5px solid black;
 		margin:0 auto;
 		background-repeat: no-repeat;
 		color:#FFFFFF;
-		text-align: center;
 		background-color: LightSkyBlue;
 		background-size: 100%;
 		margin-bottom:25px;
@@ -57,11 +69,19 @@
 		display: inline-block;
 		border-top: 1px solid LightSkyBlue;
 	}
+	.main-content-home{
+		margin-top: 0;
+		background-color: gray;
+		width: 100%;
+		height: 50%;
+		overflow: hidden;
+	}
+
 	.main-content-home img {
 		float: left;
 		width: 60%;
 		height: 100%;
-		margin-top: 40px;
+		margin-top: 15px;
 		display: inline;
 	}
 	.about {
