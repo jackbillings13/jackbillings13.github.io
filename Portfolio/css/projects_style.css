@@ -1,3 +1,9 @@
+html, body {
+	background-color: #211D24;
+}
+.photo-cell {
+	background-color: LightSkyBlue;
+}
 .photo {
 	height: 500px;
 	width: 95%;
