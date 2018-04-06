@@ -6,3 +6,22 @@ body{
 	margin-left: 20%;
 	margin-bottom: 5%;
 }
+
+.grow { 
+	height: 206px;
+	width: 325px;
+	transition: all .2s ease-in-out; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.grow:hover { 
+	transform: scale(1.1); 
+}
+h1 {
+	color: #00274C;
+	text-align: center;	
+}
+.go {
+	margin-bottom: 5%;
+}

@@ -14,18 +14,7 @@
 
 	<script>
 	    $(document).ready(function(){ 
-	      //Use the .attr method to get attributes
-	      
-	      // Use the .text method to update the content:
-	      // selector.text(newValue)
-
-	      // Use the .css method to update the content:
-	      // selector.css(attribute, newValue)
-
-
 	        $(".preview" ).on('focus mouseover',function() {
-	          // 1) Take the alt text of the preview picture I just put into focus
-	          // 2) Use this to set the text of the image
 	        $(".exp").text($(this).attr("alt"));
 	        $("#image").css('background-image', 'url("' + $(this).attr("src") + '")');
 	        })
@@ -33,7 +22,15 @@
 	        $(".preview" ).on('blur mouseleave',function() {
 	        $(".exp").text("Hover over an image below");	
 	        $("#image").css('background-image', '');
-	      })
+	      	})
+
+	        $(".grow" ).on('focus mouseover',function() {
+	        $(".blue").text($(this).attr("alt"));
+	        })	  
+
+	        $(".grow" ).on('blur mouseleave',function() {
+	        $(".blue").text("");	
+	      	})    	
 	    });
 	</script>	
 
@@ -81,6 +78,12 @@
 		<iframe src="https://open.spotify.com/embed/track/7lxOjQyVsHQ8toQeT7IgCc" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 		<iframe src="https://open.spotify.com/embed/track/7wrDRQgHlvDnimrRHfQZxt" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 	</div>
+	
+	<div class="go">
+		<img class="grow" src="images/michigan.png" alt="GO BLUE!">
+		<h1 class="blue"></h1>
+	</div>
+
 
 	<footer class="footer">
 		<p>This site was created by Jack Billings &copy; 2018</p>
