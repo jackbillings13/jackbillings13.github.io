@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exam Two</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+    		// $(".thor").on('focus mouseover',function(){
+      //   	$(this).hide();
+    		// });
+
+    		$("#hide").on('click',function(){
+        		$(".a").hide();
+        		$(".b").css("grid-column", "2 / 4")
+    		});
+
+    		$("#show").on('click',function(){
+        		$(".a").show();
+        		$(".b").css("grid-column", "3 / 5")
+    		});
+		});
+
+	</script>
+
+
+</head>
+<body>
+	<h1>Jack Billings<h1>
+
+	<div class="wrapper">
+		<img class="a" src="images/examPic.JPG" alt="exam pic">
+		<img class="b" src="images/UMSI-logo.jpg" alt="UMSI Logo">
+	</div>
+
+	<button id="hide">Hide Image</button>
+	<button id="show">Show Image</button>
+
+</body>
+</html>
